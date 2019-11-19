@@ -1,0 +1,34 @@
+To use variants, you would need to use the command !variants. The usage of this command is:
+!variants <CID> <variant_style> <integer>
+
+
+So, for example; lets say we wanted the Purple Skull Trooper. The command we would type in would be:
+!variants CID_030_Athena_Commando_M_Halloween clothing_color 1
+
+CID_030_Athena_Commando_M_Halloween Is obviously the the CID, clothing_color is the variant_style & 1 is the integer.
+
+Here is the full list of variant styles for you to play around with styles!
+
+item (str) – The variant item type. This defaults to AthenaCharacter which is what you want to use if you are changing skin variants.
+
+parts_config (str) – The type of parts you want to use. The available types are Emissive (default) and Mat.
+
+pattern (Optional[int]) – The pattern number you want to use.
+
+numeric (Optional[int]) – The numeric number you want to use.
+
+clothing_color (Optional[int]) – The clothing color you want to use.
+
+jersey_color (Optional[str]) – The jersey color you want to use. For soccer skins this is the country you want the jersey to represent.
+
+parts (Optional[int]) – The parts number you want to use.
+
+progressive (Optional[int]) – The progressing number you want to use.
+
+particle (Optional[int]) – The particle number you want to use.
+
+material (Optional[int]) – The material number you want to use.
+
+emissive (Optional[int]) – The emissive number you want to use.
+
+If you need help, feel free to join the discord support server listed on the main README.txt.
